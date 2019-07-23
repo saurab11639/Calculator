@@ -35,30 +35,38 @@ public class Calculator {
 
 
     }
-    public static int add(int x, int y)
+    public static int add(int a, int b)
     {
-    	int result=0;
+    	int res=a + b;
 //        write your code here 
+  
+    		
     	
-        return result;
+        return res;
     }
-    public static int sub(int x, int y)
+    public static int sub(int a, int b)
     {
-    	int result=0;
+    	int res=a-b;
 //        write your code here
-        return result;
+    
+        			
+        return res;
     }
-    public static int mult(int x, int y)
+    public static int mult(int a, int b)
     {
-    	int result=0;
-//      write your code here        
-    	return result;
-    }
-    public static int div(int x, int y)
-    {
-    	int result=0;
+    	int res=a * b;
 //      write your code here
-    	return result;
+    	 
+        			
+    	return res;
+    }
+    public static int div(int a, int b)
+    {
+    	int res=a / b;;
+//      write your code here
+   
+        			
+    	return res;
     }
 
 }
